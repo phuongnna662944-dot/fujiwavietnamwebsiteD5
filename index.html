@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fujiwa Việt Nam</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Be Vietnam Pro',sans-serif;
+}
+
+:root{
+--primary:#00AEEF;
+--secondary:#0085D1;
+--dark:#003D73;
+--light:#F4FBFF;
+--white:#ffffff;
+}
+
+body{
+background:#fff;
+overflow-x:hidden;
+color:#222;
+}
+
+.container{
+width:90%;
+max-width:1400px;
+margin:auto;
+}
+
+img{
+max-width:100%;
+display:block;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(255,255,255,.95);
+backdrop-filter:blur(10px);
+box-shadow:0 3px 15px rgba(0,0,0,.1);
+z-index:999;
+}
+
+.navbar{
+height:90px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo img{
+height:60px;
+}
+
+.menu{
+display:flex;
+gap:30px;
+}
+
+.menu a{
+text-decoration:none;
+color:#003D73;
+font-weight:600;
+}
+
+.btn{
+padding:14px 28px;
+background:#00AEEF;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:700;
+}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+color:white;
+
+background:
+linear-gradient(
+rgba(0,70,130,.75),
+rgba(0,174,239,.75)
+),
+url('https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=2000&q=80');
+
+background-size:cover;
+background-position:center;
+}
+
+.hero-content{
+max-width:700px;
+}
+
+.hero h1{
+font-size:72px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+section{
+padding:90px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-title h2{
+font-size:48px;
+color:#003D73;
+margin-bottom:10px;
+}
+
+.products{
+background:#f8fcff;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.product-card{
+background:white;
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.product-card:hover{
+transform:translateY(-8px);
+}
+
+.product-image{
+height:300px;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+}
+
+.product-image img{
+height:250px;
+object-fit:contain;
+}
+
+.product-info{
+padding:25px;
+}
+
+.product-info h3{
+font-size:20px;
+color:#003D73;
+margin-bottom:10px;
+}
+
+.old-price{
+text-decoration:line-through;
+color:#888;
+margin-top:15px;
+}
+
+.price{
+font-size:30px;
+font-weight:800;
+color:#00AEEF;
+margin:10px 0;
+}
+
+.card-buttons{
+display:flex;
+gap:10px;
+}
+
+.card-buttons button{
+flex:1;
+padding:12px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:700;
+}
+
+.buy{
+background:#00AEEF;
+color:white;
+}
+
+.detail{
+background:#003D73;
+color:white;
+}
+
+.badge{
+position:absolute;
+top:15px;
+left:15px;
+background:red;
+color:white;
+padding:8px 12px;
+border-radius:30px;
+font-size:12px;
+font-weight:700;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="container navbar">
+
+<div class="logo">
+<img src="https://tse2.mm.bing.net/th/id/OIP.SV84Vs9PZPudDhxGKWKbdgHaGR?pid=Api&h=220&P=0">
+</div>
+
+<nav class="menu">
+<a href="#">Trang Chủ</a>
+<a href="#products">Sản Phẩm</a>
+<a href="#about">Giới Thiệu</a>
+<a href="#contact">Liên Hệ</a>
+</nav>
+
+<a href="#products" class="btn">Đặt Hàng</a>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="hero-content">
+
+<h1>Nước Ion Kiềm Fujiwa Nhật Bản</h1>
+
+<p>
+Công nghệ ion kiềm và hydrogen cao cấp giúp chăm sóc sức khỏe toàn diện.
+</p>
+
+<a href="#products" class="btn">
+Khám Phá Sản Phẩm
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="products" class="products">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Sản Phẩm Nổi Bật</h2>
+<p>Ưu đãi giảm giá 5% hôm nay</p>
+</div>
+
+<div class="product-grid">
+
+
+<!-- SẢN PHẨM 1 -->
+
+<div class="product-card">
+
+<div class="badge">-5%</div>
+
+<div class="product-image">
+<img src="https://fujiwavietnam.vn/wp-content/uploads/2025/11/c618418b2dff4cbc9350db95bd90714dtplv-aphluv4xwc-origin-jpeg.jpeg">
+</div>
+
+<div class="product-info">
+
+<h3>Nước uống ion kiềm Fujiwa 1250ml</h3>
+
+<p>Thùng 12 chai - Công nghệ ion kiềm cao cấp Nhật Bản.</p>
+
+<div class="old-price">
+192.000 VNĐ
+</div>
+
+<div class="price">
+182.400 VNĐ
+</div>
+
+<div class="card-buttons">
+<button class="buy" onclick="addToCart('Fujiwa 1250ml',182400)">
+Đặt Hàng
+</button>
+
+<button class="detail">
+Chi Tiết
+</button>
+</div>
+
+</div>
+
+</div>
+
+<!-- SẢN PHẨM 2 -->
+
+<div class="product-card">
+
+<div class="badge">-5%</div>
+
+<div class="product-image">
+<img src="https://fujiwavietnam.vn/wp-content/uploads/2025/11/z4571366108846-18ae1b425618297f4b822b081d6f12dd-2048x2048.jpg">
+</div>
+
+<div class="product-info">
+
+<h3>Nước uống ion kiềm Fujiwa 18L</h3>
+
+<p>Bình nước ion kiềm cao cấp dành cho gia đình và văn phòng.</p>
+
+<div class="old-price">
+85.000 VNĐ
+</div>
+
+<div class="price">
+80.750 VNĐ
+</div>
+
+<div class="card-buttons">
+<button class="buy" onclick="addToCart('Fujiwa 18L',80750)">
+Đặt Hàng
+</button>
+
+<button class="detail">
+Chi Tiết
+</button>
+</div>
+
+</div>
+
+</div>
+
+<!-- SẢN PHẨM 3 -->
+
+<div class="product-card">
+
+<div class="badge">-5%</div>
+
+<div class="product-image">
+<img src="https://fujiwavietnam.vn/wp-content/uploads/2025/11/5aa61c203bb1493dbbd39cf22f9dc710tplv-o3syd03w52-origin-jpeg.jpeg">
+</div>
+
+<div class="product-info">
+
+<h3>Dung Dịch Vệ Sinh Mũi I-On Fujisalt</h3>
+
+<p>Làm sạch khoang mũi, hỗ trợ chăm sóc đường hô hấp.</p>
+
+<div class="old-price">
+540.000 VNĐ
+</div>
+
+<div class="price">
+513.000 VNĐ
+</div>
+
+<div class="card-buttons">
+<button class="buy" onclick="addToCart('Fujisalt',513000)">
+Đặt Hàng
+</button>
+
+<button class="detail">
+Chi Tiết
+</button>
+</div>
+
+</div>
+
+</div>
+
+<!-- SẢN PHẨM 4 -->
+
+<div class="product-card">
+
+<div class="badge">-5%</div>
+
+<div class="product-image">
+<img src="https://fujiwavietnam.vn/wp-content/uploads/2025/11/fujion-2-frame-2-1691478182390.jpg">
+</div>
+
+<div class="product-info">
+
+<h3>Dung Dịch Vệ Sinh Đa Năng Fujion</h3>
+
+<p>Khử khuẩn và vệ sinh đa năng cho gia đình.</p>
+
+<div class="old-price">
+249.000 VNĐ
+</div>
+
+<div class="price">
+236.550 VNĐ
+</div>
+
+<div class="card-buttons">
+<button class="buy" onclick="addToCart('Fujion',236550)">
+Đặt Hàng
+</button>
+
+<button class="detail">
+Chi Tiết
+</button>
+</div>
+
+</div>
+
+</div>
+
+<!-- SẢN PHẨM 5 -->
+
+<div class="product-card">
+
+<div class="badge">-5%</div>
+
+<div class="product-image">
+<img src="https://fujiwavietnam.vn/wp-content/uploads/2025/11/c89c47c7183e4de1b107028fa95f132ctplv-o3syd03w52-origin-jpeg.jpeg">
+</div>
+
+<div class="product-info">
+
+<h3>Nước Xịt Thơm Miệng Fujisalt</h3>
+
+<p>Giúp hơi thở thơm mát và sạch khuẩn khoang miệng.</p>
+
+<div class="old-price">
+840.000 VNĐ
+</div>
+
+<div class="price">
+798.000 VNĐ
+</div>
+
+<div class="card-buttons">
+<button class="buy" onclick="addToCart('Xịt Thơm Miệng',798000)">
+Đặt Hàng
+</button>
+
+<button class="detail">
+Chi Tiết
+</button>
+</div>
+
+</div>
+
+</div>
+
+<!-- SẢN PHẨM 6 -->
+
+<div class="product-card">
+
+<div class="badge">-5%</div>
+
+<div class="product-image">
+<img src="https://fujiwavietnam.vn/wp-content/uploads/2025/11/061c031670c04bca99d0f019e9315935tplv-aphluv4xwc-origin-jpeg.jpeg">
+</div>
+
+<div class="product-info">
+
+<h3>Speed Fujiwa 390ml</h3>
+
+<p>Thức uống bổ sung ion - Thùng 24 chai.</p>
+
+<div class="old-price">
+360.000 VNĐ
+</div>
+
+<div class="price">
+342.000 VNĐ
+</div>
+
+<div class="card-buttons">
+<button class="buy" onclick="addToCart('Speed Fujiwa',342000)">
+Đặt Hàng
+</button>
+
+<button class="detail">
+Chi Tiết
+</button>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="about">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Về Fujiwa Việt Nam</h2>
+</div>
+
+<p style="font-size:20px;line-height:2;text-align:center;max-width:1000px;margin:auto;">
+
+Fujiwa là thương hiệu nước uống ion kiềm và các sản phẩm chăm sóc sức khỏe ứng dụng công nghệ tiên tiến từ Nhật Bản.
+
+Các sản phẩm Fujiwa được phát triển hướng tới mục tiêu nâng cao chất lượng cuộc sống, hỗ trợ chăm sóc sức khỏe toàn diện cho người tiêu dùng Việt Nam.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Thông Tin Liên Hệ</h2>
+</div>
+
+<div style="text-align:center;font-size:22px;line-height:2">
+
+<p>
+☎ Hotline: <strong>1900 8462</strong>
+</p>
+
+<p>
+✉ Email:
+<strong>D5AI@fujiwavietnam.vn</strong>
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer
+style="
+background:#003D73;
+color:white;
+padding:60px 20px;
+text-align:center;
+"
+>
+
+<h2 style="margin-bottom:20px;">
+Fujiwa Việt Nam
+</h2>
+
+<p style="margin-bottom:10px;">
+Nước Ion Kiềm & Chăm Sóc Sức Khỏe Công Nghệ Nhật Bản
+</p>
+
+<p>
+Hotline: 1900 8462
+</p>
+
+<p>
+Email: D5AI@fujiwavietnam.vn
+</p>
+
+<p style="margin-top:25px;color:#b9dfff;">
+© 2025 Fujiwa Demo Website.
+</p>
+
+</footer>
+
+<!-- GIỎ HÀNG -->
+
+<div
+id="cartBox"
+style="
+position:fixed;
+right:20px;
+bottom:20px;
+background:white;
+width:340px;
+border-radius:20px;
+padding:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.2);
+z-index:999;
+"
+>
+
+<h3 style="color:#003D73;">
+🛒 Giỏ Hàng
+</h3>
+
+<div id="cartItems">
+
+<p>Chưa có sản phẩm.</p>
+
+</div>
+
+<hr style="margin:15px 0;">
+
+<h4 style="color:#00AEEF;">
+
+Tổng:
+
+<span id="totalPrice">
+0
+</span>
+
+VNĐ
+
+</h4>
+
+<button
+onclick="checkout()"
+style="
+margin-top:15px;
+width:100%;
+padding:15px;
+background:#00AEEF;
+color:white;
+border:none;
+border-radius:10px;
+font-weight:bold;
+cursor:pointer;
+"
+>
+Tiến Hành Thanh Toán
+</button>
+
+</div>
+
+<!-- FORM THANH TOÁN -->
+
+<div
+id="checkoutModal"
+style="
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.7);
+z-index:5000;
+"
+>
+
+<div
+style="
+background:white;
+width:90%;
+max-width:700px;
+margin:40px auto;
+padding:30px;
+border-radius:20px;
+max-height:90vh;
+overflow-y:auto;
+"
+>
+
+<h2
+style="
+margin-bottom:20px;
+color:#003D73;
+"
+>
+Thanh Toán Đơn Hàng
+</h2>
+
+<input
+id="customerName"
+type="text"
+placeholder="Họ và tên"
+style="
+width:100%;
+padding:14px;
+margin-bottom:12px;
+"
+>
+
+<input
+id="customerPhone"
+type="text"
+placeholder="Số điện thoại"
+style="
+width:100%;
+padding:14px;
+margin-bottom:12px;
+"
+>
+
+<input
+id="customerEmail"
+type="email"
+placeholder="Email"
+style="
+width:100%;
+padding:14px;
+margin-bottom:12px;
+"
+>
+
+<textarea
+id="customerAddress"
+placeholder="Địa chỉ nhận hàng"
+style="
+width:100%;
+padding:14px;
+height:100px;
+margin-bottom:12px;
+"
+></textarea>
+
+<textarea
+id="customerNote"
+placeholder="Ghi chú đơn hàng"
+style="
+width:100%;
+padding:14px;
+height:80px;
+margin-bottom:20px;
+"
+></textarea>
+
+<h3>Phương thức thanh toán</h3>
+
+<label>
+<input
+type="radio"
+name="payment"
+value="COD"
+checked
+>
+ Thanh toán khi nhận hàng (COD)
+</label>
+
+<br><br>
+
+<label>
+<input
+type="radio"
+name="payment"
+value="Bank"
+>
+ Chuyển khoản ngân hàng
+</label>
+
+<div
+style="
+margin-left:20px;
+margin-top:8px;
+margin-bottom:10px;
+font-size:14px;
+color:#666;
+"
+>
+
+Ngân hàng Vietcombank
+
+<br>
+
+STK: 123456789
+
+<br>
+
+CTK: FUJIWA VIETNAM
+
+</div>
+
+<label>
+<input
+type="radio"
+name="payment"
+value="Momo"
+>
+ Ví Momo
+</label>
+
+<br><br>
+
+<label>
+<input
+type="radio"
+name="payment"
+value="ZaloPay"
+>
+ ZaloPay
+</label>
+
+<br><br>
+
+<h3>Phương thức liên hệ</h3>
+
+<label>
+<input type="checkbox" value="Call">
+ Gọi điện
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" value="SMS">
+ SMS
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" value="Email">
+ Email
+</label>
+
+<br>
+
+<label>
+<input type="checkbox" value="Zalo">
+ Zalo
+</label>
+
+<br><br>
+
+<button
+onclick="submitOrder()"
+style="
+width:100%;
+padding:15px;
+background:#00AEEF;
+color:white;
+border:none;
+border-radius:10px;
+font-weight:bold;
+cursor:pointer;
+"
+>
+Xác Nhận Đặt Hàng
+</button>
+
+<br><br>
+
+<button
+onclick="closeCheckout()"
+style="
+width:100%;
+padding:15px;
+background:#003D73;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+"
+>
+Đóng
+</button>
+
+</div>
+
+</div>
+
+<script>
+
+let cart=[];
+
+function addToCart(name,price){
+
+cart.push({
+name:name,
+price:price
+});
+
+renderCart();
+
+alert(
+name +
+' đã được thêm vào giỏ hàng.'
+);
+
+}
+
+function renderCart(){
+
+let box=
+document.getElementById(
+'cartItems'
+);
+
+let total=0;
+
+if(cart.length===0){
+
+box.innerHTML=
+'<p>Chưa có sản phẩm.</p>';
+
+document.getElementById(
+'totalPrice'
+).innerHTML='0';
+
+return;
+
+}
+
+let html='';
+
+cart.forEach(item=>{
+
+html+=`
+<div
+style="
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+"
+>
+
+<span>
+${item.name}
+</span>
+
+<strong>
+${item.price.toLocaleString()}
+</strong>
+
+</div>
+`;
+
+total+=item.price;
+
+});
+
+box.innerHTML=html;
+
+document.getElementById(
+'totalPrice'
+).innerHTML=
+total.toLocaleString();
+
+}
+
+function checkout(){
+
+if(cart.length===0){
+
+alert(
+'Vui lòng chọn sản phẩm.'
+);
+
+return;
+
+}
+
+document.getElementById(
+'checkoutModal'
+).style.display='block';
+
+}
+
+function closeCheckout(){
+
+document.getElementById(
+'checkoutModal'
+).style.display='none';
+
+}
+
+function submitOrder(){
+
+let name=
+document.getElementById(
+'customerName'
+).value;
+
+let phone=
+document.getElementById(
+'customerPhone'
+).value;
+
+let email=
+document.getElementById(
+'customerEmail'
+).value;
+
+let address=
+document.getElementById(
+'customerAddress'
+).value;
+
+let payment=
+document.querySelector(
+'input[name="payment"]:checked'
+).value;
+
+if(name===''||phone===''){
+
+alert(
+'Vui lòng nhập họ tên và số điện thoại.'
+);
+
+return;
+
+}
+
+let total=0;
+
+cart.forEach(item=>{
+
+total+=item.price;
+
+});
+
+alert(
+
+'ĐẶT HÀNG THÀNH CÔNG\n\n'+
+
+'Khách hàng: '+name+
+
+'\nSĐT: '+phone+
+
+'\nEmail: '+email+
+
+'\nĐịa chỉ: '+address+
+
+'\nThanh toán: '+payment+
+
+'\nTổng tiền: '+total.toLocaleString()+' VNĐ'+
+
+'\n\nHotline hỗ trợ: 1900 8462'
+
+);
+
+cart=[];
+
+renderCart();
+
+closeCheckout();
+
+}
+
+</script>
+
+<style>
+
+@media(max-width:1024px){
+
+.product-grid{
+grid-template-columns:
+repeat(2,1fr);
+}
+
+.hero h1{
+font-size:52px;
+}
+
+}
+
+@media(max-width:768px){
+
+.menu{
+display:none;
+}
+
+.product-grid{
+grid-template-columns:1fr;
+}
+
+.hero{
+padding:120px 0;
+height:auto;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+#cartBox{
+width:90%;
+right:5%;
+bottom:15px;
+}
+
+.section-title h2{
+font-size:34px;
+}
+
+}
+
+</style>
+
+</body>
+</html>
